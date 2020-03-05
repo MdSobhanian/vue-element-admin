@@ -83,7 +83,7 @@ export const constantRoutes = [
       }
     ]
   },
-  {
+  /* {
     path: '/documentation',
     component: Layout,
     children: [
@@ -94,7 +94,7 @@ export const constantRoutes = [
         meta: { title: 'Documentation', icon: 'documentation', affix: true }
       }
     ]
-  },
+  },*/
   {
     path: '/guide',
     component: Layout,
