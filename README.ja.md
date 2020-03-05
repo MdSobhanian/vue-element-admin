@@ -9,19 +9,19 @@
   <a href="https://github.com/ElemeFE/element">
     <img src="https://img.shields.io/badge/element--ui-2.7.0-brightgreen.svg" alt="element-ui">
   </a>
-  <a href="https://travis-ci.org/PanJiaChen/vue-element-admin" rel="nofollow">
-    <img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Build Status">
+  <a href="https://travis-ci.org/MdSobhanian/vue-element-admin" rel="nofollow">
+    <img src="https://travis-ci.org/MdSobhanian/vue-element-admin.svg?branch=master" alt="Build Status">
   </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE">
+  <a href="https://github.com/MdSobhanian/vue-element-admin/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/releases">
-    <img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="GitHub release">
+  <a href="https://github.com/MdSobhanian/vue-element-admin/releases">
+    <img src="https://img.shields.io/github/release/MdSobhanian/vue-element-admin.svg" alt="GitHub release">
   </a>
   <a href="https://gitter.im/vue-element-admin/discuss">
     <img src="https://badges.gitter.im/Join%20Chat.svg" alt="gitter">
   </a>
-  <a href="https://panjiachen.gitee.io/vue-element-admin-site/zh/donate">
+  <a href="https://MdSobhanian.gitee.io/vue-element-admin-site/zh/donate">
     <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
   </a>
 </p>
@@ -30,28 +30,28 @@
 
 ## 概要
 
-[vue-element-admin](https://panjiachen.github.io/vue-element-admin) は管理画面のフロントエンドのインタフェースで、[vue](https://github.com/vuejs/vue) と [element-ui](https://github.com/ElemeFE/element)を使っています。i18nの多言語対応、可変ルート、権限、典型的なビジネスアプリテンプレートであり、豊富なコンポーネントを提供しています。素早くビジネス用の管理画面の現型を構築に役立ちます。
+[vue-element-admin](https://MdSobhanian.github.io/vue-element-admin) は管理画面のフロントエンドのインタフェースで、[vue](https://github.com/vuejs/vue) と [element-ui](https://github.com/ElemeFE/element)を使っています。i18nの多言語対応、可変ルート、権限、典型的なビジネスアプリテンプレートであり、豊富なコンポーネントを提供しています。素早くビジネス用の管理画面の現型を構築に役立ちます。
 
-- [デモページ](https://panjiachen.github.io/vue-element-admin)
+- [デモページ](https://MdSobhanian.github.io/vue-element-admin)
 
-- [ドキュメント](https://panjiachen.github.io/vue-element-admin-site/)
+- [ドキュメント](https://MdSobhanian.github.io/vue-element-admin-site/)
 
 - [Gitter](https://gitter.im/vue-element-admin/discuss)
 
-- [Donate](https://panjiachen.gitee.io/vue-element-admin-site/zh/donate)
+- [Donate](https://MdSobhanian.gitee.io/vue-element-admin-site/zh/donate)
 
-- [Wiki](https://github.com/PanJiaChen/vue-element-admin/wiki)
+- [Wiki](https://github.com/MdSobhanian/vue-element-admin/wiki)
 
-- おすすめシンプルテンプレート: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
-- デスクトップバージョン: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
+- おすすめシンプルテンプレート: [vue-admin-template](https://github.com/MdSobhanian/vue-admin-template)
+- デスクトップバージョン: [electron-vue-admin](https://github.com/MdSobhanian/electron-vue-admin)
 - Typescriptバージョン: [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (感謝: [@Armour](https://github.com/Armour))
-- [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
+- [awesome-project](https://github.com/MdSobhanian/vue-element-admin/issues/2312)
 
-**バージョン`v4.1.0+`以降について、デフォルトのmasterブランチではi18nをサポートしていません。masterブランチと共にアップデートされる[i18n Branch](https://github.com/PanJiaChen/vue-element-admin/tree/i18n)を使用してください。 **
+**バージョン`v4.1.0+`以降について、デフォルトのmasterブランチではi18nをサポートしていません。masterブランチと共にアップデートされる[i18n Branch](https://github.com/MdSobhanian/vue-element-admin/tree/i18n)を使用してください。 **
 
-**現在のバージョン `v4.0+` は `vue-cli` で構築していて、バグ報告は[issue](https://github.com/PanJiaChen/vue-element-admin/issues/new)のissueでお願いします。旧バージョン[tag/3.11.0](https://github.com/PanJiaChen/vue-element-admin/tree/tag/3.11.0)もあります。こちらは`vue-cli`に依存しないです。**
+**現在のバージョン `v4.0+` は `vue-cli` で構築していて、バグ報告は[issue](https://github.com/MdSobhanian/vue-element-admin/issues/new)のissueでお願いします。旧バージョン[tag/3.11.0](https://github.com/MdSobhanian/vue-element-admin/tree/tag/3.11.0)もあります。こちらは`vue-cli`に依存しないです。**
 
-**低いバージョンのブラウザはサーポートしないです(例えば ie)，必要があれば polyfill を追加してください。 [詳細はこちら](https://github.com/PanJiaChen/vue-element-admin/wiki#babel-polyfill)**
+**低いバージョンのブラウザはサーポートしないです(例えば ie)，必要があれば polyfill を追加してください。 [詳細はこちら](https://github.com/MdSobhanian/vue-element-admin/wiki#babel-polyfill)**
 
 ## 前準備
 
@@ -65,7 +65,7 @@
 
 ## Sponsors
 
-Become a sponsor and get your logo on our README on GitHub with a link to your site. [[Become a sponsor]](https://www.patreon.com/panjiachen)
+Become a sponsor and get your logo on our README on GitHub with a link to your site. [[Become a sponsor]](https://www.patreon.com/MdSobhanian)
 
 <a href="https://flatlogic.com/admin-dashboards?from=vue-element-admin"><img width="150px" src="https://wpimg.wallstcn.com/9c0b719b-5551-4c1e-b776-63994632d94a.png" /></a><p>Admin Dashboard Templates made with Vue, React and Angular.</p>
 
@@ -138,7 +138,7 @@ Become a sponsor and get your logo on our README on GitHub with a link to your s
 
 ```bash
 # clone the project
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/MdSobhanian/vue-element-admin.git
 
 # enter the project directory
 cd vue-element-admin
@@ -178,15 +178,15 @@ npm run lint
 npm run lint -- --fix
 ```
 
-詳細は [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) を参照してください。
+詳細は [Documentation](https://MdSobhanian.github.io/vue-element-admin-site/guide/essentials/deploy.html) を参照してください。
 
 ## Changelog
 
-各リリースの詳細は [release notes](https://github.com/PanJiaChen/vue-element-admin/releases) にあります。
+各リリースの詳細は [release notes](https://github.com/MdSobhanian/vue-element-admin/releases) にあります。
 
 ## Online Demo
 
-[Preview](https://panjiachen.github.io/vue-element-admin)
+[Preview](https://MdSobhanian.github.io/vue-element-admin)
 
 ## Donate
 
@@ -208,6 +208,6 @@ Modern browsers and Internet Explorer 10+.
 
 ## License
 
-[MIT](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
+[MIT](https://github.com/MdSobhanian/vue-element-admin/blob/master/LICENSE)
 
-Copyright (c) 2017-present PanJiaChen
+Copyright (c) 2017-present MdSobhanian
